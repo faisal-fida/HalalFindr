@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #27302C;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.white-item-price {
+	color: white;
+}
+
+.CartContainer {
+	width: 80%;
+	height: 90%;
+}
+
+.Header {
+	margin: auto;
+	width: 90%;
+	height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Heading {
+	font-size: 30px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	color: #F1F3F2;
+}
+
+.Action {
+	font-size: 17px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #F1F3F2;
+}
+
+.Action:hover {
+	color: #03da43;
+}
+
+
+.Cart-Items {
+	margin: auto;
+	width: 90%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.image-box {
+	width: 15%;
+	text-align: center;
+}
+
+.about {
+	height: 100%;
+	width: 30%;
+
+}
+
+.title {
+	padding-top: 80px;
+	line-height: 10px;
+	font-size: 40px;
+	font-family: 'Open Sans';
+	font-weight: 800;
+	color: #ffffff;
+}
+
+.subtitle {
+	line-height: 30px;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #b7b4b4;
+}
+
+
+.counter {
+	width: 35%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.quantity {
+	margin-left: 50px;
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 22px;
+	width: 100%;
+}
+
+.quantity-round {
+	width: 50%;
+	height: 15%;
+	border-radius: 20px;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	text-align: center;
+
+}
+
+.save {
+	padding-top: 5px;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #1687d9;
+	cursor: pointer;
+}
+
+.checkout {
+	float: right;
+	margin-right: 5%;
+	width: 28%;
+}
+
+.total {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Subtotal {
+	font-size: 22px;
+	margin-top: 15px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.total-amount {
+	font-size: 36px;
+	font-family: 'Open Sans';
+	font-weight: 900;
+	color: #ffffff;
+}
+
+.button {
+	margin-top: 30px;
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: #069C54;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #FFF;
+}
+
+.button:hover {
+	background-color: #048654;
+}
+
+.menu_img {
+	width: 180px;
+	padding-top: 40px;
+}
